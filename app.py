@@ -119,9 +119,7 @@ for _ in range(20):
     island.add_entity(Rabbit(x, y, island))
 
 # Запуск симуляции
-tmp = 1
-while tmp != 0:
+for _ in range(20):
     island.display()
     island.update()
-    tmp = int(input())
     
