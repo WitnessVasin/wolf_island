@@ -105,7 +105,8 @@ class Island:
 # Инициализация острова
 island = Island(20)
 
-# Добавляем волков, волчиц и зайцев
+# Добавляем волков волчиц и зайцев на поле.
+# Тест
 for _ in range(10):
     x, y = random.randint(0, 19), random.randint(0, 19)
     island.add_entity(Wolf(x, y, island))
