@@ -124,3 +124,4 @@ for _ in range(20):
     island.display()
     island.update()
     
+print("Симуляция завершена")
