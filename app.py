@@ -121,6 +121,7 @@ for _ in range(20):
 
 # Запуск симуляции
 for _ in range(20):
+    print('Запус симуляции')
     island.display()
     island.update()
     
